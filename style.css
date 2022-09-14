@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#text {
+    width: 80%;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+    border-radius: 20px;
+    outline: none;
+    font-family: Verdana;
+    font-size: 16px;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#text:hover, #text:focus{
+    border: 1px solid #aaa
+    
+}
+
+#svgLoad {
+    text-align: center;
+}
+
+#button {
+    margin-top: 50px;
+    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #FFFFFF;
+    background-color: #bbffa6;
+    font-family: Verdana;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button:hover{
+    transition: 0.3s;
+    background-color: #FFFFFF;
+    border: 2px solid #bbffa6
+}
+
+@media (max-width: 470px) {
+    #button{
+        width: 60%
+    }
+}
